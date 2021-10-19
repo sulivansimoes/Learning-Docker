@@ -1,3 +1,5 @@
+Referência para escrita do readme.md [Documentaçao Oficial](https://docs.docker.com/reference/). :v:
+
 # Comandos básicos
 
 ## Verificando a lista de containers
@@ -15,10 +17,16 @@ Esse comando é responsável por mostrar todos os containers, mesmo aqueles não
 | -n  	| *Lista os últimos N containers, inclusive os desligados*  |
 | -q  	| *Lista apenas os ids dos containers, ótimo para utilização em scripts*  |
 
-## Deletando de containers
+## Deletando containers
 
 Para deletar containers do Docker host utilizamos o comando
 
 - ``` docker rm ``` <id_container>
 - ``` docker rm ``` <name_container>
 
+## Deletando imagens
+
+Para deletar imagens do Docker host utilizamos o comando
+
+- ``` docker rmi ``` <id_image>
+- ``` docker rmi ``` <name_image>
