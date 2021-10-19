@@ -15,3 +15,10 @@ Esse comando é responsável por mostrar todos os containers, mesmo aqueles não
 | -n  	| *Lista os últimos N containers, inclusive os desligados*  |
 | -q  	| *Lista apenas os ids dos containers, ótimo para utilização em scripts*  |
 
+## Deletando de containers
+
+Para deletar containers do Docker host utilizamos o comando
+
+- ``` docker rm ``` <id_container>
+- ``` docker rm ``` <name_container>
+
