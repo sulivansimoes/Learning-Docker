@@ -41,6 +41,11 @@ Para deletar containers do Docker host utilizamos o comando
 - ``` docker rm ``` <id_container>
 - ``` docker rm ``` <name_container>
 
+| Parâmetro     | Parâmetro              |                |
+| ------        | ------                 | ------         |
+| **Nome**      | **taquigrafia**        | **Explicação** |
+| ```--force``` | ```-f```               | *Força a remoção de um contêiner em execução (usa SIGKILL)* ``` docker rm -f ``` <id_container> |
+
 ## Deletando imagens
 
 Para deletar imagens do Docker host utilizamos o comando
