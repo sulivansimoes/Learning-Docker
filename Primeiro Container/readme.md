@@ -1,4 +1,4 @@
-Referência para escrita do readme.md [Documentaçao Oficial](https://docs.docker.com/reference/). :v:
+Referência para escrita do readme.md :point_right: [Documentaçao Oficial](https://docs.docker.com/reference/). :point_left:
 
 # Comandos básicos
 
@@ -10,12 +10,11 @@ Esse comando é responsável por mostrar todos os containers, mesmo aqueles não
 - ``` docker container list ``` <parâmetros>  
 - ``` docker ps ``` <parâmetros>
 
-| Parâmetro                | Explicação      |
-| -----                    | ------          |
-| **Nome**, **taquigrafia**|                 | 
-| ```-all```    , ```-a``` | *Lista todos os containers, inclusive os desligados*      |
-| ```--latest```, ```-l``` | *Lista os últimos containers, inclusive os desligados*    |
-| ```--quiet``` , ```-q``` | *Lista apenas os ids dos containers*  |
+| Parâmetro     | Parâmetro              |            |
+| **Nome**      | **taquigrafia**        | Explicação |
+| ```-all```    | ```-a```               | *Lista todos os containers, inclusive os desligados*      |
+| ```--latest```| ```-l```               | *Lista os últimos containers, inclusive os desligados*    |
+| ```--quiet``` | ```-q```               | *Lista apenas os ids dos containers*  |
 
 ## Deletando containers
 
