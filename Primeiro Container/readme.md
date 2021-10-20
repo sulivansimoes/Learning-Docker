@@ -34,6 +34,12 @@ Para iniciar um ou mais contêineres parados utilizamos o comando
 - ```docker start```<id_container>
 - ```docker start```<name_container>
 
+## Parando containers em execução
+Para um ou mais contêineres em execução
+
+- ```docker stop```<id_container>
+- ```docker stop```<name_container>
+
 ## Deletando containers
 
 Para deletar containers do Docker host utilizamos o comando
