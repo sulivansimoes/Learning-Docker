@@ -28,6 +28,11 @@ Para visualizar a lista de imagens de um determinado Docker host utilizamos o co
 | **Nome**      | **taquigrafia**        | **Explicação** |
 | ```--all```   | ```-a```               | *Mostrar todas as imagens (o padrão oculta as imagens intermediárias*      |
 
+## Iniciando containers parados
+Para iniciar um ou mais contêineres parados utilizamos o comando 
+
+- ```docker start```<id_container>
+- ```docker start```<name_container>
 
 ## Deletando containers
 
