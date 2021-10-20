@@ -47,3 +47,8 @@ Para deletar imagens do Docker host utilizamos o comando
 
 - ``` docker rmi ``` <id_image>
 - ``` docker rmi ``` <name_image>
+
+| Parâmetro     | Parâmetro              |                |
+| ------        | ------                 | ------         |
+| **Nome**      | **taquigrafia**        | **Explicação** |
+| ```--force``` | ```-f```               | *Força remoção da imagem do docker* ``` docker rmi -f ``` <id_image>      |
