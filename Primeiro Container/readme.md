@@ -11,6 +11,7 @@ Esse comando é responsável por mostrar todos os containers, mesmo aqueles não
 - ``` docker ps ``` <parâmetros>
 
 | Parâmetro     | Parâmetro              |            |
+| ------        | ------                 | ------     |
 | **Nome**      | **taquigrafia**        | Explicação |
 | ```-all```    | ```-a```               | *Lista todos os containers, inclusive os desligados*      |
 | ```--latest```| ```-l```               | *Lista os últimos containers, inclusive os desligados*    |
