@@ -1,21 +1,33 @@
-Referência para escrita do readme.md :point_right: [Documentaçao Oficial](https://docs.docker.com/reference/). :point_left:
+Referência para escrita do readme.md :point_right: [Documentaçao Oficial](https://docs.docker.com/reference/) :point_left:
 
 # Comandos básicos
 
 ## Verificando a lista de containers
 
 Para visualizar a lista de containers de um determinado Docker host utilizamos o comando ```docker ps```.
-Esse comando é responsável por mostrar todos os containers, mesmo aqueles não mais em execução.
+Esse comando é responsável por mostrar todos os containers, mesmo aqueles não mais em execução (quando passado ```-a```).
 
 - ``` docker container list ``` <parâmetros>  
 - ``` docker ps ``` <parâmetros>
 
-| Parâmetro     | Parâmetro              |            |
-| ------        | ------                 | ------     |
-| **Nome**      | **taquigrafia**        | Explicação |
+| Parâmetro     | Parâmetro              |                |
+| ------        | ------                 | ------         |
+| **Nome**      | **taquigrafia**        | **Explicação** |
 | ```-all```    | ```-a```               | *Lista todos os containers, inclusive os desligados*      |
 | ```--latest```| ```-l```               | *Lista os últimos containers, inclusive os desligados*    |
 | ```--quiet``` | ```-q```               | *Lista apenas os ids dos containers*  |
+
+## Verificando lista de imagens
+
+Para visualizar a lista de imagens de um determinado Docker host utilizamos o comando.
+
+- ``` docker image ls ``` <parâmetros>  
+
+| Parâmetro     | Parâmetro              |                |
+| ------        | ------                 | ------         |
+| **Nome**      | **taquigrafia**        | **Explicação** |
+| ```--all```   | ```-a```               | *Mostrar todas as imagens (o padrão oculta as imagens intermediárias*      |
+
 
 ## Deletando containers
 
