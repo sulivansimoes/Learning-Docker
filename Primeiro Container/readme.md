@@ -12,8 +12,8 @@ Esse comando é responsável por mostrar todos os containers, mesmo aqueles não
 
 | Parâmetro                | Explicação      |
 | -----                    | ------          |
-| Nome  , taquigrafia      |                 | 
-| ```-all   ```    , ```-a``` | *Lista todos os containers, inclusive os desligados*      |
+| **Nome**, **taquigrafia**|                 | 
+| ```-all```    , ```-a``` | *Lista todos os containers, inclusive os desligados*      |
 | ```--latest```, ```-l``` | *Lista os últimos containers, inclusive os desligados*    |
 | ```--quiet``` , ```-q``` | *Lista apenas os ids dos containers*  |
 
