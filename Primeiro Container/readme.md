@@ -10,9 +10,9 @@ Esse comando é responsável por mostrar todos os containers, mesmo aqueles não
 - ``` docker container list ``` <parâmetros>  
 - ``` docker ps ``` <parâmetros>
 
-| Parâmetro                |                 | 
-| Nome  | taquigrafia      | Explicação      |
+| Parâmetro                |                 |
 | ----- | -----            | ------          | 
+| Nome  | taquigrafia      | Explicação      | 
 | -all  | -a  	           | *Lista todos os containers, inclusive os desligados*      |
 |       | -l  	           | *Lista os últimos containers, inclusive os desligados*    |
 |       | -n  	           | *Lista os últimos N containers, inclusive os desligados*  |
