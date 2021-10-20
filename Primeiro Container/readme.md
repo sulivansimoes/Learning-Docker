@@ -12,7 +12,7 @@ Esse comando é responsável por mostrar todos os containers, mesmo aqueles não
 
 | Parâmetro                | Explicação      | 
 
-| ------                   |------|
+
 | Nome  | taquigrafia      |    d             |
 | ----- | -----            | ------          | 
 | -all  | -a  	           | *Lista todos os containers, inclusive os desligados*      |
